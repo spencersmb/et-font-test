@@ -1,0 +1,32 @@
+// @font-face {
+//     font-family: 'hawthorne';
+//     src: url('font/hawthorne/HawthorneScript-Regular.eot');
+//     url('font/hawthorne/HawthorneScript-Regular.woff2') format('woff2'),
+//     url('fonts/hawthorne/HawthorneScript-Regular.woff') format('woff'),
+//     font-weight: normal;
+//     font-style: normal;
+// }
+@font-face {
+    font-family: 'hawthorne';
+    src: url('font/hawthorne/HawthorneScript-Regular.woff2') format('woff2'),
+    url('font/hawthorne/HawthorneScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tuesday';
+    src: url('font/tuesday/tues-web-wip-Regular.woff2') format('woff2'),
+    url('font/tuesday/tues-web-wip-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: tuesday, Verdana;
+    text-rendering: optimizeLegibility;
+}
+
+.hawthorne{
+	font-family: hawthorne, Verdana;
+}

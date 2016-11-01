@@ -1,0 +1,20 @@
+// @font-face {
+//     font-family: 'hawthorne';
+//     src: url('font/hawthorne/HawthorneScript-Regular.eot');
+//     url('font/hawthorne/HawthorneScript-Regular.woff2') format('woff2'),
+//     url('fonts/hawthorne/HawthorneScript-Regular.woff') format('woff'),
+//     font-weight: normal;
+//     font-style: normal;
+// }
+@font-face {
+    font-family: 'webfontregular';
+    src: url('font/hawthorne/HawthorneScript-Regular.woff2') format('woff2'),
+    url('font/hawthorne/HawthorneScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: webfontregular, Verdana;
+    text-rendering: optimizeLegibility;
+}
